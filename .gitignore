@@ -156,7 +156,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-.dmypy.json
+.dmypy.json 
 dmypy.json
 
 # Pyre type checker
@@ -205,3 +205,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Project Specific Ignores ---
+vibeenv/
+*.task
+*.jpg
+body_scan_capture.jpg
